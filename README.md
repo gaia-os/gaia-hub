@@ -26,9 +26,9 @@ description and make sure you're on the correct branch.
 ## Recommended installation process
 1. Clone into a folder on your local system:
 ```
-git clone -b master git@github.com:user/myproject.git
+git clone -b main https://github.com/gaia-os/open-science-network.git
 ```
-Replace `master` with the name of any branch you'd like to clone.
+Replace `main` with the name of any branch you'd like to clone.
 2. [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)
 3. Move to project root
 4. Use the following commands to create a new virtual environment and then activate it:
