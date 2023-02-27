@@ -1,12 +1,10 @@
 <p align="left">
-	<img src="img/DG-logo.png" alt="Digital-Gaia" width="200">
+	<img src="imgs/DG-logo.png" alt="Digital-Gaia" width="200">
 </p>
 
-# Welcome to the Digital Gaia Open Science Network
-The **Open Science Network (OSN)** is a place where scientists, coders, 
-citizens of earth and other forward-thinking creatures come together to co-develop
-an open model library describing all the world’s agriculture, to help 1 billion 
-farmers become more financially and environmentally sustainable.
+# The Roots & Culture Indoor Agriculture Modeler's Lab
+This branch is designed as a experimental environment for **OSN** contributors who are working primarily on 
+model and engine improvements.
 
 ### Table of contents
 
@@ -16,12 +14,11 @@ farmers become more financially and environmentally sustainable.
 4. [Provenance policy](#provenance-policy)
 
 ## Getting started
-Are you passionate about our planet and creating tools to support our mutual healthspan and prosperity? If so,
-please fill out [this form](https://forms.gle/E1C8QAKJio4ParXm8) so that we can connect you with your 
-future collaborators on the **OSN**!
+If you haven't yet, check out the get-started notebook for a detailed breakdown of the engine 
+and how to, well, get started.
 
-If you are already a member of the **OSN** and you are looking to get started working on a bounty, check the bounty
-description and make sure you're on the correct branch.
+Once you are oriented, check out the `LAB-roots-and-culture` notebook for more instructions on how to use this branch 
+for conducting your own experiments.
 
 ## Recommended installation process
 1. Clone into a folder on your local system:
