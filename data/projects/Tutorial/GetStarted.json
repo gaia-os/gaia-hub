@@ -1,0 +1,45 @@
+{
+	"name": "Tutorial.GetStarted",
+	"start_date": "2021-12-01",
+	"duration_in_years": 1,
+	"lots": [{
+		"name": "lot_0",
+        "bounds": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-89.56672668457031, 45.101638366018676],
+                [-89.56672668457031, 45.09295909075445],
+                [-89.55780029296875, 45.09295909075445],
+                [-89.55780029296875, 45.101638366018676],
+                [-89.56672668457031, 45.101638366018676]
+            ]]
+        },
+        "strategy": "demo_policy",
+        "geo_params": {
+            "soil_type": {"type": "LV-stn.abm-ai.ct.lon.oh.sia", "taxonomy": "https://en.wikipedia.org/wiki/World_Reference_Base_for_Soil_Resources"},
+            "climate_zone": {"type": "Dfa", "taxonomy": "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification"},
+            "avg_slope": {"slope_pct": 0.05, "heading_deg": 180.0},
+            "avg_annual_rainfall": {"mm_m2": 12345}
+        }
+	}],
+	"strategies": [{
+        "name": "demo_policy",
+        "species": [
+            "v1.genetics.base.plant.Plant.PlantSpecies.Hemp"
+        ],
+        "interventions": {
+            "planting-hemp": "v1.management.base.agriculture.Planting.PlantingSeeds.HempSeeds",
+            "harvest-hemp": "v1.management.base.agriculture.Harvest.HarvestCrops.Hemp"
+        },
+        "objective": {
+            "target_variable": "v1.measurement.base.agriculture.Yield.HempYield.Continuous",
+            "aggregator": "sum",
+            "constraints": []
+        },
+        "policy": [
+            [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+            ["planting-hemp"], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], ["harvest-hemp"],
+            [], [], [], [], [], [], [], [], [], [], []
+        ]
+    }]
+}

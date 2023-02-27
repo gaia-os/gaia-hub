@@ -1,0 +1,70 @@
+{
+  "v0": {
+    "shock": {
+      "base": {
+        "meteorology": {
+          "Weather": [
+            "WeatherCondition"
+          ]
+        }
+      }
+    },
+    "vegetation": {
+      "base": {
+        "agriculture": {
+          "Plant": [
+            "PlantSpecies"
+          ]
+        }
+      },
+      "three_agro": {
+        "forestry": {
+          "Forests": [
+            "ForestType"
+          ]
+        }
+      }
+    },
+    "intervention": {
+      "base": {
+        "agriculture": {
+          "BioChar": [
+            "UseBioChar"
+          ],
+          "Harvest": [
+            "HarvestCrops"
+          ],
+          "Pesticide": [
+            "SpreadPesticide"
+          ],
+          "Pruning": [
+            "PruneCrops"
+          ],
+          "Planting": [
+            "PlantingSeeds"
+          ],
+          "Herbicide": [
+            "SpreadHerbicide"
+          ],
+          "Irrigation": [
+            "IrrigateCrops"
+          ],
+          "Fertilizer": [
+            "FertilizeSoil"
+          ],
+          "Tillage": [
+            "TillageSoil"
+          ]
+        }
+      },
+      "three_agro": {
+        "forestry": {
+          "Forests": [
+            "ForestAction"
+          ]
+        }
+      }
+    }
+  },
+  "documentation": {}
+}

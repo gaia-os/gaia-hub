@@ -1,0 +1,1 @@
+description = "Common societal factors."
