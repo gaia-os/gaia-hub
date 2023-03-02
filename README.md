@@ -8,9 +8,9 @@ model and engine improvements.
 
 ### Table of contents
 
-1. [Getting started](#getting-started)
+1. [Getting started](#getting-started-and-welcome-to-the-osn)
 2. [Recommended installation process](#recommended-installation-process)
-3. [How to contribute to the **Open Science Network**](#recommended-installation-process)
+3. [How to contribute to the Open Science Network](#how-to-contribute-to-the-open-science-network)
 4. [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab)
 5. [Outdoor Agriculture Modeler's Lab](#outdoor-agriculture-modelers-lab)
 6. [Agroecology Modeler's Lab](#agroecology-modelers-lab)
