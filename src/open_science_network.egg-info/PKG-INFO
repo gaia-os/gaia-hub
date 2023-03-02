@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: open-science-network
+Version: 0.1.0
+Summary: Modeling and infering crop biomass dynamics.
+Author: Digital Gaia, Inc
+Requires-Python: >=3.8
+License-File: LICENSE

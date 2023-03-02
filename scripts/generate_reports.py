@@ -1,6 +1,6 @@
-from natural_models.assessment.DataLoader import DataLoader
-from natural_models.assessment.ArgumentParser import ArgumentParser
-from natural_models.agents.AgentFactory import AgentFactory
+from open_science_network.assessment.DataLoader import DataLoader
+from open_science_network.assessment.ArgumentParser import ArgumentParser
+from open_science_network.agents.AgentFactory import AgentFactory
 
 
 def generate_reports():

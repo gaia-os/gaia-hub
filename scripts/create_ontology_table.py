@@ -153,7 +153,7 @@ def process_ontology_concepts(concepts, domain_directory, doc_latex_file, entry)
 def get_enums_description(file_name, entry):
     # Retrieve all enumerations in the file
     module_name = \
-        f"natural_models.ontology.{entry['version']}.{entry['variable_type']}.{entry['namespace']}.{entry['domain']}"
+        f"open_science_network.ontology.{entry['version']}.{entry['variable_type']}.{entry['namespace']}.{entry['domain']}"
     spec = importlib.util.spec_from_file_location(module_name, file_name)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)

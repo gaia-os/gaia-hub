@@ -1,4 +1,4 @@
-from natural_models.assessment.Engine import Engine as AssessmentEngine
+from open_science_network.assessment.Engine import Engine as AssessmentEngine
 
 
 def perform_assessment():

@@ -22,8 +22,7 @@
             "avg_annual_rainfall": {"mm_m2": 0}
         }
 	}],
-	"strategies": [
-        {
+	"strategies": [{
         "name": "roots-and-culture-notill-1",
         "species": [
             "v1.genetics.base.plant.Plant.PlantSpecies.Hemp"
@@ -49,8 +48,8 @@
             [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
             [], [], [], [], [], ["planting-hemp","irrigation"], ["irrigation"], ["pruning"], ["irrigation","vermi-compost","myco","manure","biochar"], ["irrigation","vermi-compost","myco","manure","biochar"], ["pruning"], ["irrigation"], ["pruning"], ["irrigation","pruning"], [], ["irrigation"], ["pruning"],
             ["irrigation"], ["harvest-hemp"], [], [], [], [], [], [], [], [], []
-        ]},
-        {
+        ]
+    }, {
         "name": "roots-and-culture-notill-2",
         "species": [
             "v1.genetics.base.plant.Plant.PlantSpecies.Hemp",
@@ -79,6 +78,6 @@
             [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
             [], [], [], [], [], ["planting_alfalfa","planting-hemp","irrigation"], ["irrigation"], ["pruning"], ["irrigation","vermi-compost","myco","manure","biochar"], ["irrigation","vermi-compost","myco","manure","biochar"], ["pruning"], ["irrigation"], ["pruning"], ["irrigation","pruning"], [], ["irrigation"], ["pruning"],
             ["irrigation"], ["harvest-hemp","harvest-alfalfa"], [], [], [], [], [], [], [], [], []
-        ]}
-    ]
+        ]
+    }]
 }

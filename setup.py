@@ -5,7 +5,7 @@ package_dir = {'': 'src'}
 package_data = {'': ['*']}
 
 setup_kwargs = {
-    'name': 'natural_models',
+    'name': 'open_science_network',
     'version': '0.1.0',
     'description': 'Modeling and infering crop biomass dynamics.',
     'long_description': None,
