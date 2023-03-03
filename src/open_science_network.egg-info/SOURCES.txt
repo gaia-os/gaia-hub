@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-src/open_science_network.egg-info/PKG-INFO
-src/open_science_network.egg-info/SOURCES.txt
-src/open_science_network.egg-info/dependency_links.txt
-src/open_science_network.egg-info/top_level.txt
