@@ -1,0 +1,3 @@
+[submodule "fangorn"]
+	path = fangorn
+	url = git@github.com:gaia-os/fangorn.git
