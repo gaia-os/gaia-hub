@@ -12,12 +12,11 @@ model and engine improvements
 
 1. [Getting started](#getting-started)
 2. [Recommended installation process](#recommended-installation-process)
-3. The Modeler's Labs
-   4. [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab)
-   5. [Outdoor Agriculture Modeler's Lab](#outdoor-agriculture-modelers-lab)
-   6. [Agroforestry Modeler's Lab](#agroforestry-modelers-lab)
-7. [How to contribute](#how-to-contribute)
-5. [Provenance policy](#provenance-policy)
+3. [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab)
+4. [Outdoor Agriculture Modeler's Lab](#outdoor-agriculture-modelers-lab)
+5. [Agroforestry Modeler's Lab](#agroforestry-modelers-lab)
+6. [How to contribute](#how-to-contribute)
+7. [Provenance policy](#provenance-policy)
 
 ## Getting started
 **GaiaHub** is a place where scientists, coders, 
@@ -30,7 +29,7 @@ If you haven't yet, check out the `get-started` notebook for a detailed breakdow
 Once you are oriented, check out the [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab) section for more instructions on how to use notebooks 
 for conducting your own experiments.
 
-When you are ready to request merging your proposed changes into the core engine, check out these tips: [How to contribute](#how-to-contribute).
+When you are ready to request merging your proposed changes into the core engine, check out [these tips](#how-to-contribute).
 
 ## Recommended installation process
 1. Clone this repo into a folder on your local system:
@@ -38,15 +37,15 @@ When you are ready to request merging your proposed changes into the core engine
     git clone -b main https://github.com/gaia-os/gaia-hub.git
     ```
     Replace `main` with the name of any branch you'd like to clone.  
-2. Clone Fangorn, the Digital Gaia engine, into the `fangorn/` folder
-   3. Move to `fangorn/` folder inside of this repo then clone the branch you want into that folder
+2. Clone Fangorn, the Digital Gaia engine, into the `fangorn/` folder  
     ```
     git clone -b main https://github.com/gaia-os/fangorn.git .
     ```
-3. [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)  
-3. Move back to project root  
-4. Use the following commands to create a new virtual environment and then activate it:  
-    ```
+3. Move to `fangorn/` folder inside of this repo then clone the branch you want into that folder  
+4. [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)  
+5. Move back to project root  
+6. Use the following commands to create a new virtual environment and then activate it:  
+   ```
     $ python3 -m venv myvenv
     ```
     This will create the virtual Python environment called `myenv`. Replace `myenv` with a different name if you prefer.
@@ -54,12 +53,12 @@ When you are ready to request merging your proposed changes into the core engine
     $ source myenv/bin/activate
     ```
     This will activate the virtual environment called `myenv`.  
-5. Install all dependencies for the Digital Gaia engine
+7. Install all dependencies for the Digital Gaia engine  
     ```
     (myenv) $ python -m pip install -r requirements.txt
     ```
    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
-6. Open a jupyter notebook and start exploring the `notebooks/` folder
+8. Open a jupyter notebook and start exploring the `notebooks/` folder  
 
 ## Roots & Culture Indoor Agriculture Modeler's Lab
 Roots & Culture operates a state-of-the-art indoor hemp farm in Virginia, growing high cannabinoid (CBD, CBG, etc.) hemp in soil under grow lights. 
