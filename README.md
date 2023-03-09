@@ -10,14 +10,14 @@ model and engine improvements.
 
 ## Table of contents
 
-1. [Getting started](#getting-started)
-2. [Recommended installation process](#recommended-installation-process)
-3. [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab)
-4. [Outdoor Agriculture Modeler's Lab](#outdoor-agriculture-modelers-lab)
-5. [Agroforestry Modeler's Lab](#agroforestry-modelers-lab)
-6. [How to contribute to GaiaHub](#how-to-contribute-to-gaiahub)
-7. [Provenance policy](#provenance-policy)
-8. [Known errors](#known-errors)
+1. [Getting started](#1-getting-started)
+2. [Recommended installation process](#2-recommended-installation-process)
+3. [Roots & Culture Indoor Agriculture Modeler's Lab](#3-roots--culture-indoor-agriculture-modelers-lab)
+4. [Outdoor Agriculture Modeler's Lab](#4-outdoor-agriculture-modelers-lab)
+5. [Agroforestry Modeler's Lab](#5-agroforestry-modelers-lab)
+6. [How to contribute to GaiaHub](#6-how-to-contribute-to-gaiahub)
+7. [Provenance policy](#7-provenance-policy)
+8. [Known errors](#8-known-errors)
 9. [Citing GaiaHub](#9-citing-gaiahub)
 
 ### 1. Getting started
@@ -29,11 +29,11 @@ farmers become more financially and environmentally sustainable.
 If you are new or if you haven't yet, check out the [Get Started notebook](https://github.com/gaia-os/gaia-hub/blob/main/notebooks/get_started.ipynb) 
 for a detailed breakdown of the engine and how to harness it's power!
 
-Once you are oriented, check out the [Roots & Culture Indoor Agriculture Modeler's Lab](#roots--culture-indoor-agriculture-modelers-lab) 
+Once you are oriented, check out the [Roots & Culture Indoor Agriculture Modeler's Lab](#3-roots--culture-indoor-agriculture-modelers-lab) 
 section below for more instructions on how to use notebooks for conducting your own experiments. If you are a contributor looking to complete a project this will 
 be a useful tool for demonstrating how your contributions improve or expand the engine.
 
-When you are ready to propose merging your changes into the core engine, check out [these tips](#how-to-contribute).
+When you are ready to propose merging your changes into the core engine, check out [these tips](#6-how-to-contribute-to-gaiahub).
 
 ###  2. Recommended installation process
 1. Clone this repository and the fangorn submodule into a folder on your local system using `terminal` (macOS and Linux) or `cmd` (Windows):
