@@ -70,7 +70,7 @@ demonstrate how changes to the model effect predictions.
 We hope this well-characterized model farm will serve as a jumping off point for modeler's looking to quickly make and test 
 their own contributions. [Check it out here](https://github.com/gaia-os/gaia-hub/blob/main/notebooks/LAB-roots-and-culture.ipynb)!
 
-### 4.Outdoor Agriculture Modeler's Lab
+### 4. Outdoor Agriculture Modeler's Lab
 Do you have expert knowledge about a crop category and access to detailed field data for that crop? If so, help us build the 
 Outdoor Agriculture Modeler's Lab!
 
