@@ -37,28 +37,32 @@ When you are ready to propose merging your changes into the core engine, check o
 
 ###  2. Recommended installation process
 1. Clone this repository and the fangorn submodule into a folder on your local system using `terminal` (macOS and Linux) or `cmd` (Windows):
-    ```
+    ```commandline
     git clone --recurse-submodules -b main https://github.com/gaia-os/gaia-hub.git
     ```
     Replace `main` with the name of any branch you'd like to clone.  
     Fangorn is the name of the Digital Gaia core engine, and contains many important files including the ontology, agents and more.
-2. Move back to project root  
+2. Move to project root  
 3. Use the following commands to create a new virtual environment and then activate it:  
 **Note**: first [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) if not already installed
-   ```
+   ```commandline
     $ python3 -m venv myvenv
     ```
     This will create the virtual Python environment called `myenv`. Replace `myenv` with a different name if you prefer.
-    ```
+    ```commandline
     $ source myenv/bin/activate
     ```
     This will activate the virtual environment called `myenv`.  
 4. Install all dependencies for the Digital Gaia engine  
-    ```
+    ```commandline
     (myenv) $ python -m pip install -r requirements.txt
     ```
    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
 5. Open a jupyter notebook and start exploring the `notebooks/` folder  
+6. When you're done don't forget to deactivate your virtual environment using
+   ```commandline
+   $ deactivate
+   ```
 
 ### 3. Roots & Culture Indoor Agriculture Modeler's Lab
 Roots & Culture operates a state-of-the-art indoor hemp farm in Virginia, growing oil rich hemp in soil under grow lights. 
@@ -85,7 +89,7 @@ Stay tuned for updates on when this lab will become available. Like the Outdoor 
 model developments that deal with concepts which apply only to agroforestry projects (e.g. specialty crops like cacao, impact of koalas on vegetation, etc.).
 
 ### 6. How to contribute to GaiaHub
-First, fill out [this form](https://forms.gle/E1C8QAKJio4ParXm8) to join **GaiaHub** and get access to our Slack channel.
+First, fill out [this form](https://forms.gle/cGXNUP5h4avX9hmG6) to join **GaiaHub** and get access to our Slack channel.
 
 If you're looking to improve the model by contributing your own code please use a basic 
 [fork and pull request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) protocol for 
@@ -103,11 +107,12 @@ Order of preference for provenance:
 3. Reported by identifiable experts through written communication, with stable URI (ex: Google Docs copy of email exchange) referenced in the repository
 
 ### 8. Known errors
-1. JAX on Apple Silicon (M1 and M2 series chips)
+1. JAX on Apple Silicon (M1 and M2 series chips)  
 While [some people have reported success](https://stackoverflow.com/questions/70815864/how-to-install-trax-jax-jaxlib-on-m1-mac-on-macos-12) 
 installing the [CPU-only version of JAX](https://github.com/google/jax#installation) or [building JAX from source](https://jax.readthedocs.io/en/latest/developer.html), 
-we have yet to indentify a reliable workaround. 
-Please [contact us](https://www.digitalgaia.earth/#Contact) if this presents an impasse.
+we have yet to indentify a reliable workaround.  
+  
+Please [contact us](https://www.digitalgaia.earth/#Contact) if you have a solution of this presents an impasse.
 
 ### 9. Citing GaiaHub
 To cite this repository:
