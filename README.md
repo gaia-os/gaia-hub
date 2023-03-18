@@ -46,11 +46,11 @@ When you are ready to propose merging your changes into the core engine, check o
 3. Use the following commands to create a new virtual environment and then activate it:  
 **Note**: first [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) if not already installed
     ```commandline
-    $ python3 -m venv myvenv
+    $ python3 -m venv myenv
     ```
     This will create the virtual Python environment called `myenv`. Replace `myenv` with a different name if you prefer.
     ```commandline
-    $ source myvenv/bin/activate
+    $ source myenv/bin/activate
     ```
     This will activate the virtual environment called `myenv`.  
 4. Install all dependencies for the Digital Gaia engine  
