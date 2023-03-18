@@ -34,31 +34,32 @@ When you are ready to request merging your proposed changes into the core engine
 ## Recommended installation process
 1. Clone this repo into a folder on your local system:
     ```
-    git clone -b main https://github.com/gaia-os/gaia-hub.git
+    git clone --recurse-submodules https://github.com/gaia-os/gaia-hub.git
     ```
-    Replace `main` with the name of any branch you'd like to clone.  
-2. Clone Fangorn, the Digital Gaia engine, into the `fangorn/` folder  
+2. By default, you will be on the `main` branch. You can switch to any branch using:
     ```
-    git clone -b main https://github.com/gaia-os/fangorn.git .
+    git checkout new_branch_name
     ```
-3. Move to `fangorn/` folder inside of this repo then clone the branch you want into that folder  
-4. [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)  
-5. Move back to project root  
-6. Use the following commands to create a new virtual environment and then activate it:  
+   Note, the `gaia-hub` repository contains a git submodule called `fangorn`, which contains the code of the engine.
+   Switching branch in the `gaia-hub` repository does not change the branch of the `fangorn` submodule. If you want to  
+   change the branch of the `fangorn` submodule, you need to move in the `fangorn` directory and run the above command.
+3. [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html)  
+4. Move back to project root  
+5. Use the following commands to create a new virtual environment and then activate it:  
    ```
     $ python3 -m venv myvenv
     ```
     This will create the virtual Python environment called `myenv`. Replace `myenv` with a different name if you prefer.
     ```
-    $ source myenv/bin/activate
+    $ source myvenv/bin/activate
     ```
     This will activate the virtual environment called `myenv`.  
-7. Install all dependencies for the Digital Gaia engine  
+6. Install all dependencies for the Digital Gaia engine  
     ```
-    (myenv) $ python -m pip install -r requirements.txt
+    (myenv) $ pip install -r requirements.txt
     ```
    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
-8. Open a jupyter notebook and start exploring the `notebooks/` folder  
+7. Open a jupyter notebook and start exploring the `notebooks/` folder  
 
 ## Roots & Culture Indoor Agriculture Modeler's Lab
 Roots & Culture operates a state-of-the-art indoor hemp farm in Virginia, growing high cannabinoid (CBD, CBG, etc.) hemp in soil under grow lights. 
