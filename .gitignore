@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+.vscode
+.DS_Store
+tmp/data/params/.DS_Store

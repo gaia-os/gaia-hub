@@ -45,8 +45,8 @@ When you are ready to propose merging your changes into the core engine, check o
 2. Move to project root  
 3. Use the following commands to create a new virtual environment and then activate it:  
 **Note**: first [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) if not already installed
-   ```commandline
-    $ python3 -m venv myvenv
+    ```commandline
+    $ python3 -m venv myenv
     ```
     This will create the virtual Python environment called `myenv`. Replace `myenv` with a different name if you prefer.
     ```commandline
@@ -57,12 +57,12 @@ When you are ready to propose merging your changes into the core engine, check o
     ```commandline
     (myenv) $ python -m pip install -r requirements.txt
     ```
-   Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
+    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
 5. Open a jupyter notebook and start exploring the `notebooks/` folder  
 6. When you're done don't forget to deactivate your virtual environment using
-   ```commandline
-   $ deactivate
-   ```
+    ```commandline
+    $ deactivate
+    ```
 
 ### 3. Roots & Culture Indoor Agriculture Modeler's Lab
 Roots & Culture operates a state-of-the-art indoor hemp farm in Virginia, growing oil rich hemp in soil under grow lights. 
@@ -125,4 +125,3 @@ To cite this repository:
   year = {2023},
 }
 ```
-
