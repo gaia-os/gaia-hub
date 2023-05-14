@@ -36,13 +36,20 @@ be a useful tool for demonstrating how your contributions improve or expand the 
 When you are ready to propose merging your changes into the core engine, check out [these tips](#6-how-to-contribute-to-gaiahub).
 
 ###  2. Recommended installation process
-1. Clone this repository and the fangorn submodule into a folder on your local system using `terminal` (macOS and Linux) or `cmd` (Windows):
+1. Clone this repository and the fangorn submodule into a folder on your local system using `terminal` (macOS and Linux) or `cmd` (Windows). If you have an SSH key on GitHub, then run:
     ```commandline
-    git clone --recurse-submodules -b main https://github.com/gaia-os/gaia-hub.git
+    $ git clone --recurse-submodules -b main git@github.com:gaia-os/gaia-hub.git
     ```
-    Replace `main` with the name of any branch you'd like to clone.  
+   If you don't have an SSH key on GitHub, then run:
+    ```commandline
+    $ git clone --recurse-submodules -b main https://github.com/gaia-os/gaia-hub.git
+    ```
+    Replace `main` with the name of any branch you'd like to clone.
     Fangorn is the name of the Digital Gaia core engine, and contains many important files including the ontology, agents and more.
-2. Move to project root  
+2. Move to the `fangorn` directory:
+    ```commandline
+    $ cd ./gaia-hub/fangorn
+    ```
 3. Use the following commands to create a new virtual environment and then activate it:  
 **Note**: first [Install virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) if not already installed
     ```commandline
@@ -53,13 +60,28 @@ When you are ready to propose merging your changes into the core engine, check o
     $ source myenv/bin/activate
     ```
     This will activate the virtual environment called `myenv`.  
-4. Install all dependencies for the Digital Gaia engine  
+4. Install all dependencies for the Digital Gaia engine:
     ```commandline
     (myenv) $ python -m pip install -r requirements.txt
     ```
-    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.  
-5. Open a jupyter notebook and start exploring the `notebooks/` folder  
-6. When you're done don't forget to deactivate your virtual environment using
+    Note the `(myenv)` which indicates you are indeed working in an activated virtual environment.
+5. Install the Digital Gaia engine:
+    ```commandline
+    (myenv) $ pip install -e .
+    ```
+6. You should now be able to run `fangorn` scripts as follows:
+    ```commandline
+    (myenv) $ python ./digital_gaia/scripts/perform_assessment.py --project="./data/projects/Roots-and-Culture/roots-indoor1.json"
+    ```
+7. To run a notebook, move back to the `gaia-hub` directory: 
+    ```commandline
+    (myenv) $ cd ..
+    ```
+8. Open a jupyter notebook and start exploring the `notebooks/` folder  
+    ```commandline
+    (myenv) $ jupyter-notebook
+    ```
+9. When you're done don't forget to deactivate your virtual environment using
     ```commandline
     $ deactivate
     ```
