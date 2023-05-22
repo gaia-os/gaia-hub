@@ -4,3 +4,4 @@ __pycache__/
 .vscode
 .DS_Store
 tmp/data/params/.DS_Store
+outputs/
